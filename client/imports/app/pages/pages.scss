@@ -1,0 +1,112 @@
+.brand-name {
+  color: #FC4C20;
+}
+
+.btn-custom {
+  background-color: rgba(51, 92, 129, 1);
+  border-color: #ccc;
+  color: #ffffff;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+.comparison-header {
+  padding: 20px;
+}
+
+.details p {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.details p:nth-child(2n+1) {
+  background-color: rgba(94, 177, 191, 1);
+  color: #ffffff;
+}
+
+.fa-circle-thin, .fa-envelope, .fa-phone, .fa-comment {
+  color: #ffffff;
+}
+
+.fa-square, .fa-square-o, .fa-fighter-jet, .fa-rocket, .fa-plane, .fa-paper-plane {
+  color: rgba(51, 92, 129, 1);
+}
+
+.featured {
+  border: 1px solid silver;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.fieldset-form {
+  border: 1px solid rgba(51, 51, 51, 1);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.green {
+  color: green !important;
+}
+
+.header-card {
+  background-color: rgba(51, 92, 129, 1) !important;
+  color: #ffffff;
+}
+
+.hr-rule {
+  border-top: 3px solid rgba(204, 41, 54, 1);
+  border-bottom: 0px;
+  //padding-bottom: 25px;
+}
+
+.img-small {
+  width: 100px;
+}
+
+.inline-div {
+  display: inline-block !important;
+}
+
+.legend-form {
+  width: inherit;
+  padding: 0px 10px;
+}
+
+.li-spaced li {
+  padding: 5px 0px;
+}
+
+.no-pad {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.semi-footer {
+  background-color: rgba(204, 41, 54, 1);
+  padding: 10px;
+}
+
+.semi-footer a,
+.semi-footer a:hover,
+.semi-footer a:focus {
+  color: #ffffff;
+}
+
+.small-flag {
+  width: 24px;
+  height: 24px;
+}
+
+.white-bg {
+  background-color: white;
+  border-color: white;
+}

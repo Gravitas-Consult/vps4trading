@@ -1,0 +1,162 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">&nbsp;</div>
+    </div>
+
+    <!-- Our Benefits -->
+    <div class="row">
+        <div class="col">
+            <h4 class="text-center">Register Now</h4>
+        </div>
+    </div>
+    <!-- END of Our Benefits -->
+
+    <div class="row">
+        <div class="col">
+            <hr class="hr-rule" width="35%">
+        </div>
+    </div>
+
+    <form #f="ngForm" (ngSubmit)="signup(f.value)">
+        <div class="row" [hidden]="error == ''">
+            <div class="col-md-2">&nbsp;</div>
+            <div class="col-md-8">
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    {{ error }}
+                </div>
+            </div>
+            <div class="col-md-2">&nbsp;</div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-2">&nbsp;</div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-user-o"></i></div>
+                            <input type="text" class="form-control" placeholder="First Name" name="fname" ngModel>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-user-o"></i></div>
+                            <input type="text" class="form-control" placeholder="Last Name" name="lname" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-building-o"></i></div>
+                            <input type="text" class="form-control" placeholder="Company" name="company" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-envelope-o"></i></div>
+                            <input type="email" class="form-control" placeholder="Email Address" name="email" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-phone-square"></i></div>
+                            <input type="tel" class="form-control" placeholder="Phone" name="phone" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-lock"></i></div>
+                            <input type="password" class="form-control" placeholder="Password" name="password" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-lock"></i></div>
+                            <input type="password" class="form-control" placeholder="Confirm Password" name="password2" ngModel>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-address-book-o"></i></div>
+                            <input type="text" class="form-control" placeholder="Address 1" name="address1" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-address-book-o"></i></div>
+                            <input type="text" class="form-control" placeholder="Address 2" name="address2" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-address-book-o"></i></div>
+                            <input type="text" class="form-control" placeholder="City" name="city" ngModel>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-address-book-o"></i></div>
+                            <input type="text" class="form-control" placeholder="State" name="state" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-address-book-o"></i></div>
+                            <input type="text" class="form-control" placeholder="Postal Code" name="postal" ngModel>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-globe"></i></div>
+                            <input type="text" class="form-control" placeholder="Country" name="country" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-addon pr-4"><i class="fa fa-question-circle-o"></i></div>
+                            <input type="text" class="form-control" placeholder="How did you find us?" name="how_found" ngModel>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pull-right">
+                    <div class="col">
+                        <div class="input-group pull-right">
+                            <button type="submit" class="btn btn-custom btn-lg">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">&nbsp;</div>
+        </div>
+    </form>
+
+    <div class="row">
+        <div class="col">&nbsp;</div>
+    </div>
+</div>

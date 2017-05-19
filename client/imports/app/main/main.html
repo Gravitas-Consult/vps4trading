@@ -1,0 +1,78 @@
+<nav class="navbar fixed-top navbar-toggleable-lg navbar-light nav-style">
+    <div class="full-width">
+        <div class="row member-bar">
+            <div class="col-md-1">&nbsp;</div>
+            <div class="col-md-10 member-link">
+                <ul class="list-inline pull-right">
+                    <li class="list-inline-item" routerLinkActive="active">
+                        <a routerLink="/login"><i class="fa fa-user"></i> Login</a>
+                    </li>
+                    <li class="list-inline-item" routerLinkActive="active">
+                        <a routerLink="/register"><i class="fa fa-user-plus"></i> Register</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-1">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">&nbsp;</div>
+            <div class="col-md-10">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin: 15px;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand logo-brand mr-auto" routerLink="/home">
+                    <img alt="{{ heading }}" src="/cropped-cropped-gravitas-logo-2.png" width="45" height="45" class="d-inline-block">
+                    <span class="pastel-red">{{ heading }}</span>
+                </a>
+                <div class="collapse navbar-collapse padding-10 pull-right" id="navbarNavDropdown" style="width: initial;">
+                    <ul class="navbar-nav capitalize">
+                        <!--<li class="nav-item" routerLinkActive="active"><a class="nav-link nav-link-font" routerLink="/home">Home</a></li>-->
+                        <li class="nav-item" routerLinkActive="active"><a class="nav-link nav-link-font" routerLink="/vps-dedicated">VPS & Dedicated Plans</a></li>
+                        <li class="nav-item" routerLinkActive="active"><a class="nav-link nav-link-font" routerLink="/broker-latency">Broker Latency</a></li>
+                        <li class="nav-item" routerLinkActive="active"><a class="nav-link nav-link-font" routerLink="/about-us">About Us</a></li>
+                        <li class="nav-item" routerLinkActive="active"><a class="nav-link nav-link-font" routerLink="/promos">Promotions</a></li>
+                        <li class="nav-item" routerLinkActive="active"><a class="nav-link nav-link-font" routerLink="/free-vps">Free VPS</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-font" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-item" routerLinkActive="active">
+                                    <a class="nav-link nav-link-font-small" routerLink="/contact">Contact</a>
+                                </li>
+                                <li class="dropdown-item" routerLinkActive="active">
+                                    <a class="nav-link nav-link-font-small" routerLink="/faq">FAQ</a>
+                                </li>
+                                <!--
+                                <li class="dropdown-item" routerLinkActive="active">
+                                    <a class="nav-link nav-link-font-small" routerLink="/knowledge-base">Knowledge Base</a>
+                                </li>
+                                -->
+                                <li class="dropdown-item" routerLinkActive="active">
+                                    <a class="nav-link nav-link-font-small" routerLink="/terms-conditions">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-1">&nbsp;</div>
+        </div>
+    </div>
+</nav>
+
+<div class="padding-content">
+    <router-outlet></router-outlet>
+</div>
+
+<div class="container-fluid px-0">
+    <!-- Footer Copy right -->
+    <div class="row padding-10 footer">
+        <div class="col text-center">
+            {{ footer }}<br/>
+            {{ disclaimer }}
+        </div>
+    </div>
+    <!-- END of Footer Copy right -->
+</div>

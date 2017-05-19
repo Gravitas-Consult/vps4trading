@@ -1,0 +1,105 @@
+.dropdown-item.active, .dropdown-item:active {
+  color: rgba(204, 41, 54, 1) !important;
+  background-color: transparent !important;
+}
+
+.dropdown-item.active > a,
+.dropdown-item.active > a:hover,
+.dropdown-item.active > a:focus {
+  color: rgba(204, 41, 54, 1) !important;
+  background-color: transparent !important;
+}
+
+.footer {
+  background-color: rgba(51, 92, 129, 1);
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.logo-brand {
+  padding: 10px 0px !important;
+}
+
+.member-bar {
+  font-size: 13px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+}
+
+.member-link {
+  top: 10px;
+}
+
+.member-link > ul > li > a {
+  color: rgba(51, 51, 51, 1);
+}
+
+.member-link > ul > li > a:hover,
+.member-link > ul > li > a:focus {
+  color: rgba(204, 41, 54, 1);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar-header {
+  height: 100px;
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav > .nav-item > a {
+  color: rgba(51, 51, 51, 1);
+}
+
+.navbar-light .navbar-nav > .nav-item > a:hover,
+.navbar-light .navbar-nav > .nav-item > a:focus {
+  color: rgba(204, 41, 54, 1);
+  background-color: transparent;
+}
+
+
+.navbar-light .navbar-nav > .active > a,
+.navbar-light .navbar-nav > .active > a:hover,
+.navbar-light .navbar-nav > .active > a:focus {
+  color: rgba(204, 41, 54, 1) !important;
+  background-color: transparent;
+}
+
+.nav-link-font {
+  font-size: 16px;
+}
+
+.nav-link-font-small {
+  font-size: 14px;
+}
+
+.nav-item > .dropdown-menu > .dropdown-item > a {
+  color: rgba(51, 51, 51, 1);
+}
+
+.nav-item > .dropdown-menu > .dropdown-item > a:hover,
+.nav-item > .dropdown-menu > .dropdown-item > a:focus {
+  color: rgba(204, 41, 54, 1);
+  background-color: transparent;
+}
+
+.nav-style {
+  padding: 0px !important;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.padding-content {
+  padding-top: 110px;
+}
+
+/* DIV IDs */
+
+#navbarNavDropdown {
+  position: relative;
+  top: 5px;
+}

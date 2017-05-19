@@ -1,0 +1,46 @@
+@import "imports/app/main/main";
+@import "imports/app/pages/pages.scss";
+@import "imports/app/carousel-main/carousel-main";
+
+/* CSS declarations go here */
+body {
+  font-family: Verdana, Geneva, sans-serif !important;
+  color: #333 !important;
+}
+
+.dark-blue {
+  color: rgba(51, 92, 129, 1);
+}
+
+.dark-gray {
+  color: rgba(51, 51, 51, 1);
+}
+
+.light-blue {
+  color: rgba(94, 177, 191, 1);
+}
+
+.orange {
+  color: rgba(252, 76, 32, 1);
+}
+
+.padding-0 {
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.pastel-red {
+  color: rgba(204, 41, 54, 1);
+}
+
+.row {
+  max-width: none !important;
+}
