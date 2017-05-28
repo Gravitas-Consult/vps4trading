@@ -8,4 +8,4 @@ import template from "./faq.html";
     selector: 'faq-page',
     template
 })
-export class FAQPage {}
+export class FAQPage { }
