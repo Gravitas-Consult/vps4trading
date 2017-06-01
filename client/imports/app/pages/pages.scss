@@ -17,6 +17,7 @@ a:focus.btn-custom {
 .capitalize {
   text-transform: uppercase;
 }
+
 .comparison-header {
   padding: 20px;
 }
@@ -24,7 +25,7 @@ a:focus.btn-custom {
 .details p {
   display: block;
   padding: 10px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .details p:nth-child(2n+1) {
@@ -43,6 +44,10 @@ a:focus.btn-custom {
 .featured {
   border: 1px solid silver;
   box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.featured > .details > p {
+  font-weight: bold;
 }
 
 .fieldset-form {
@@ -72,6 +77,10 @@ a:focus.btn-custom {
   border-top: 3px solid rgba(204, 41, 54, 1);
   border-bottom: 0px;
   //padding-bottom: 25px;
+}
+
+.img-card-header {
+  height: 125px;
 }
 
 .img-small {
@@ -115,6 +124,39 @@ a:focus.btn-custom {
 }
 
 .white-bg {
-  background-color: white;
+  background-color: white !important;
   border-color: white;
+}
+
+/** Divs **/
+#dedicated-plan {
+  background: #cc2936; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#cc2936, #df626c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#cc2936, #df626c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cc2936, #df626c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cc2936, #df626c);
+}
+
+#gold-plan {
+  background: #fccf4b; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#fccf4b, #fdeaaf); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fccf4b, #fdeaaf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fccf4b, #fdeaaf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fccf4b, #fdeaaf);
+}
+
+#platinum-plan {
+  background: #c1beba; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#c1beba, #e5e4e2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#c1beba, #e5e4e2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#c1beba, #e5e4e2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#c1beba, #e5e4e2);
+}
+
+#silver-plan {
+  background: #a7a7a7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a7a7a7, #e6e6e6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a7a7a7, #e6e6e6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a7a7a7, #e6e6e6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a7a7a7, #e6e6e6);
 }
