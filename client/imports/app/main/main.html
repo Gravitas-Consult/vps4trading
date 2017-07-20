@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-md-1">&nbsp;</div>
             <div class="col-md-10">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin: 15px;">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="position: relative;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand logo-brand mr-auto" routerLink="/home">
@@ -71,7 +71,8 @@
     <div class="row padding-10 footer">
         <div class="col text-center">
             {{ footer }}<br/>
-            {{ disclaimer }}
+            {{ disclaimer }}<br/><br/>
+            {{ extra_disclaimer }}<br/>
         </div>
     </div>
     <!-- END of Footer Copy right -->
